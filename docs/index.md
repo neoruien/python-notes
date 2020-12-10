@@ -25,7 +25,7 @@ Python 3 `int` has no maximum size. To store very large values, Python 2 uses **
 
 Floats are real numbers. They contain a fractional part after the decimal point.
 
-The maximum `float` value on a 64 bit computer is 1.7976931348623157e+308 which means move the decimal point 308 places right.
+The maximum `float` value on a 64-bit computer is 1.7976931348623157e+308 which means move the decimal point 308 places right.
 
 The minimum `float` value is 2.2250738585072014e-308, which has 307 zeros before the decimal point.
 

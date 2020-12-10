@@ -41,6 +41,10 @@ Complex numbers contain a real and an imaginary part.
 
 #### 1.3.1 `str`
 
+Strings are arrays of bytes representing unicode characters.
+However, Python does not have a *character* data type, a single character is simply a string of length 1.
+Square brackets can be used to access elements of the string.
+
 ### 1.4. Mapping
 
 ### 1.5. File

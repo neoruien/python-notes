@@ -23,7 +23,7 @@ print("SPLITTING STRING")
 splitString = "This string has been\nsplit over\nseveral\nlines"
 print(splitString)
 
-# Splitting string with many quotation marks and newlines
+# Splitting string with 2 extra quotation marks and newlines
 anotherSplitString = """This string has been
 split over
 several

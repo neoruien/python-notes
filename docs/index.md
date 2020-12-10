@@ -1,13 +1,7 @@
 ---
 layout: default
-title: Python Programming
+title: Python Programming Notes
 ---
-
-<h1 align="center">Welcome to Python Programming (Udemy)! 👋</h1>
-
-<p align="center">
-<i>Notes written by Rui En</i>
-</p>
 
 ## **1. Built-In Data Types**
 

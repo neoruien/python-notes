@@ -19,7 +19,7 @@ Integers are whole numbers. They do not contain a fractional part.
 
 Computations using integers are significantly faster than using floating-point numbers.
 
-Python 3 `int` has no maximum size. To store very large values, Python 2 uses **long**, while Python 3 uses **int**
+Python 3 `int` has no maximum size. To store very large values, Python 2 uses **long**, while Python 3 uses **int**.
 
 #### 1.1.2. `float`
 
@@ -48,7 +48,7 @@ For example:
 Each item in a sequence is also a sequence.
 For example, `computer_parts` is a sequence, and `"computer"` is a sequence as well.
 
-Because a sequence is *ordered*, we can use indexes to access individual items in the sequence.
+Because a sequence is **ordered**, we can use indexes to access individual items in the sequence.
 For example, `computer_parts[1] = "monitor"`, and `computer_parts[1][0] = "m"`.
 
 Except for range sequence type, all sequence types can be concatenated or multiplied.
@@ -56,8 +56,18 @@ Except for range sequence type, all sequence types can be concatenated or multip
 #### 1.3.1. `str`
 
 Strings are arrays of bytes representing unicode characters.
-However, Python does not have a *character* data type, a single character is simply a string of length 1.
-Square brackets can be used to access elements of the string.
+However, Python does not have a **character** data type, a single character is simply a string of length 1.
+
+When printing strings and numbers,
+it is better to print a description of what a value is (`str`), before the value itself (e.g. `int`).
+
+Strong typing violation occurs when we attempt to concatenate numbers with strings using `+`,
+as the presence of a number instructs Python to attempt addition which fails.
+
+All data types can be coerced into a string representation using `str()`.
+Therefore, we can coerce numbers into a string and concatenate them with a string afterwards.
+
+Python automatically coerces numbers into a string when an attempt's made to concatenate a string and a number.
 
 #### 1.3.2. List
 

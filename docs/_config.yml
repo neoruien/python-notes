@@ -1,0 +1,13 @@
+title: "Python Programming"
+theme: minima
+
+header_pages:
+  - NOTES.md
+
+markdown: kramdown
+
+repository: "https://github.com/successs404/python-programming-udemy"
+github_icon: "images/github-icon.png"
+
+plugins:
+  - jemoji

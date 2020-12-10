@@ -1,3 +1,8 @@
+---
+layout: page
+title: Python Programming
+---
+
 <h1 align="center">Welcome to Python Programming (Udemy)! 👋</h1>
 
 <p align="center">

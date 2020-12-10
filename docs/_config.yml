@@ -2,7 +2,7 @@ title: "Python Programming"
 theme: minima
 
 header_pages:
-  - NOTES.md
+  - Notes.md
 
 markdown: kramdown
 

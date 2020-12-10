@@ -1,9 +1,6 @@
 title: "Python Programming"
 theme: jekyll-theme-cayman
 
-header_pages:
-  - Notes.md
-
 markdown: kramdown
 
 repository: "https://github.com/successs404/python-programming-udemy"

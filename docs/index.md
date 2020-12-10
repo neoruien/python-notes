@@ -15,7 +15,7 @@ title: Python Programming
 
 Basic operations can be performed on numbers.
 
-Note that there is operator precedence: */ then +- then *left right*.
+Note that there is operator precedence: */ then +- then *left* *right*.
 
 <ins>Operators</ins>
 
@@ -33,15 +33,15 @@ Integers are whole numbers. They do not contain a fractional part.
 
 Computations using integers are significantly faster than using floating-point numbers.
 
-Python 3 `int` has no maximum size. To store very large values, Python 2 uses **long**, while Python 3 uses **int**.
+Python 3 `int` has no maximum size. To store very large values, Python 2 uses `long`, while Python 3 uses `int`.
 
 #### 1.1.2. `float`
 
 Floats are real numbers. They contain a fractional part after the decimal point.
 
-The maximum `float` value on a 64-bit computer is 1.7976931348623157e+308 which means move the decimal point 308 places right.
+The maximum `float` value on a 64-bit computer is *1.7976931348623157e+308* which means move the decimal point 308 places right.
 
-The minimum `float` value is 2.2250738585072014e-308, which has 307 zeros before the decimal point.
+The minimum `float` value is *2.2250738585072014e-308*, which has 307 zeros before the decimal point.
 
 Python `float` has 52 digits of precision. For more precise numbers, use `decimal` data type.
 
@@ -70,7 +70,7 @@ Except for range sequence type, all sequence types can be concatenated or multip
 #### 1.3.1. `str`
 
 Strings are arrays of bytes representing unicode characters.
-However, Python does not have a **character** data type, a single character is simply a string of length 1.
+However, Python does not have a `character` data type, a single character is simply a string of length 1.
 
 <ins>String operators</ins>
 

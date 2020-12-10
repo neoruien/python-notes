@@ -1,8 +1,3 @@
----
-layout: page
-title: Notes
----
-
 * Table of Contents
   {:toc}
 

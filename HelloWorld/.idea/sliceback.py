@@ -28,3 +28,7 @@ print(letters[-4:]) # prints the last 4 characters
 print(letters[-1:]) # prints the last character
 print(letters[:1]) # prints the first character
 print(letters[0]) # prints the first character
+
+print("\nQuiz")
+days = "Mon, Tue, Wed, Thu, Fri, Sat, Sun"
+print(days[::5]) # slice starts at the 1st character and includes every 5th character

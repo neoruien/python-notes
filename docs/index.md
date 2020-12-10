@@ -15,7 +15,17 @@ title: Python Programming
 
 Basic operations can be performed on numbers.
 
-Note that there is operator precedence: */ then +- then --> <--.
+Note that there is operator precedence: */ then +- then *left right*.
+
+<ins>Operators</ins>
+
+* Addition `+`
+* Subtraction `-`
+* Multiplication `*`
+* Division (float) `/`
+* Floor division (int, rounded down towards minus infinity) `//`
+* Modulus `%`
+* Exponent `x ** y`
 
 #### 1.1.1. `int`
 
@@ -74,6 +84,36 @@ However, Python does not have a **character** data type, a single character is s
 * Suppresses an escape sequence (raw string): `print(**r**"C:\Users\timbuchalka\notes.txt")`
 * Performs string formatting: `%c %s %i %d %u %o %x %X %e %E %f %g %G`
 * Formats as f-string (formatted string literal): `print(f"Pi is approximately {22 / 7:12.50f}")`
+
+<ins>Escape sequences</ins>
+
+* Newline `\n`
+* Ignore newline `\ then newline`
+* Backslash `\\`
+* Single quote `'`
+* Double quote `"`
+* Tab `\t`
+* Character with 16-bit hex value `\uxxxx`
+* Character with 32-bit hex value `\Uxxxxxxxx`
+
+<ins>Delimiting strings</ins>
+
+A delimiter is a sequence of one or more characters for specifying the boundary between regions in a string.
+
+* "string" "string"<br>
+  `"he's " "probably " "pining " "for the " "fjords"`
+* string1, string2 (adds a space in between)<br>
+  `string1, string2, string3, string4, string5`
+* \ then newline<br>
+  `"""This string has been \`<br>
+  `split over \`<br>
+  `several \`<br>
+  `lines"""`
+* 2 extra " (adds a newline in between)<br>
+  `"""This string has been `<br>
+  `split over `<br>
+  `several `<br>
+  `lines"""`
 
 <ins>Printing strings and numbers</ins>
 

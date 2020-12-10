@@ -13,6 +13,10 @@ title: Python Programming
 
 ### 1.1. Numeric
 
+Basic operations can be performed on numbers.
+
+Note that there is operator precedence: */ then +- then --> <--.
+
 #### 1.1.1. `int`
 
 Integers are whole numbers. They do not contain a fractional part.
@@ -58,6 +62,19 @@ Except for range sequence type, all sequence types can be concatenated or multip
 Strings are arrays of bytes representing unicode characters.
 However, Python does not have a **character** data type, a single character is simply a string of length 1.
 
+<ins>String operators</ins>
+
+* Concatenates strings: `string1 + string2`
+* Repeats the string for x times: `string * x`
+* Slices the string: `string[x]`
+* Range-slices the string: `string[x:y]`
+* Range-slices the string with steps: `string[x:y:-1]`
+* Checks for membership: `x in string`
+* Checks for non-membership: `x not in string`
+* Suppresses an escape sequence (raw string): `print(**r**"C:\Users\timbuchalka\notes.txt")`
+* Performs string formatting: `%c %s %i %d %u %o %x %X %e %E %f %g %G`
+* Formats as f-string (formatted string literal): `print(f"Pi is approximately {22 / 7:12.50f}")`
+
 <ins>Printing strings and numbers</ins>
 
 It is better to print a description of what a value is (`str`), before the value itself (e.g. `int`).
@@ -69,10 +86,6 @@ We can concatenate data types with a string either by:
 * Coersion via `str()`: `str(number) + "string"`
 * Formatting via representation fields: `"{}.format()"`
 
-<ins></ins>
-
-* Raw string: `print(**r**"C:\Users\timbuchalka\notes.txt")`
-* f-string (formatted string literals): `print(name + f" is {age} years old")`
 #### 1.3.2. List
 
 #### 1.3.3. Tuple

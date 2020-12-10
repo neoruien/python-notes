@@ -28,3 +28,17 @@ print(parrot[-5])
 print(parrot[-11])
 print(parrot[-8])
 print(parrot[-6])
+
+print(parrot[0:6]) # Norweg, up to but not including index 6
+
+print(parrot[0:9])
+print(parrot[:9]) # start value defaults to the start of the sequence
+
+print(parrot[10:14])
+print(parrot[10:]) # end value defaults to the end of the sequence
+
+print(parrot[:6] + parrot[6:])
+print(parrot[:]) # start and end value defaults to the start and end of the sequence
+
+print(parrot[0:6]) # Norweg
+print(parrot[-14:--8]) # negative indexing works for slicing too

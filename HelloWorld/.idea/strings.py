@@ -15,4 +15,10 @@ print(type(age)) # string --> rebind the label age to the string value
 # Strong typing
 name = "Sarah Tan"
 age = 20
-print(name + " is " + age + "years old") # error
+# print(name + " is " + age + "years old") # error
+
+# f-string
+print(name + f" is {age} years old")
+print(f"Pi is approximately {22 / 7:12.50f}")
+pi = 22 / 7
+print(f"Pi is approximately {pi:12.50f}")

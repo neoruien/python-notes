@@ -58,17 +58,21 @@ Except for range sequence type, all sequence types can be concatenated or multip
 Strings are arrays of bytes representing unicode characters.
 However, Python does not have a **character** data type, a single character is simply a string of length 1.
 
-When printing strings and numbers,
-it is better to print a description of what a value is (`str`), before the value itself (e.g. `int`).
+<ins>Printing strings and numbers</ins>
+
+It is better to print a description of what a value is (`str`), before the value itself (e.g. `int`).
 
 Strong typing violation occurs when we attempt to concatenate numbers with strings using `+`,
 as the presence of a number instructs Python to attempt addition which fails.
 
-All data types can be coerced into a string representation using `str()`.
-Therefore, we can coerce numbers into a string and concatenate them with a string afterwards.
+We can concatenate data types with a string either by:
+* Coersion via `str()`: `str(number) + "string"`
+* Formatting via representation fields: `"{}.format()"`
 
-Python automatically coerces numbers into a string when an attempt's made to concatenate a string and a number.
+<ins></ins>
 
+* Raw string: `print(**r**"C:\Users\timbuchalka\notes.txt")`
+* f-string (formatted string literals): `print(name + f" is {age} years old")`
 #### 1.3.2. List
 
 #### 1.3.3. Tuple

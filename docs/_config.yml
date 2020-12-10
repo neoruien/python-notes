@@ -1,5 +1,5 @@
 title: "Python Programming"
-theme: minima
+theme: jekyll-theme-cayman
 
 header_pages:
   - Notes.md

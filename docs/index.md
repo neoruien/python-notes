@@ -178,8 +178,18 @@ The loop will repeat for each item in a **pre-determined** sequence.
 The code in the `while` loop will be executed as long as **the condition is true**.
 A `while` loop can be used when you **can't determine** in advance how many times you will need to loop.
 
-`continue` statement: stop the current iteration and move on to the next one
-`break` statement: jump out of the loop completely
+`continue` statement: stop the current iteration and move on to the next one.
+
+`break` statement: jump out of the loop completely.
+
+By placing `else` block outside the loop, the code does not get executed if we `break` or `continue` the loop.<br>
+<pre><code>while chosen_exit not in available_exits:
+    chosen_exit = input("Please choose a direction: ")
+    if chosen_exit.casefold() == "quit":
+        print("Game over")
+        break
+else: # may or may not be executed
+    print("Aren't you glad you got out of there?")</code></pre>
 
 ## **3. Algorithm**
 

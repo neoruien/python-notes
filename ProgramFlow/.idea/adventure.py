@@ -5,6 +5,6 @@ while chosen_exit not in available_exits:
     chosen_exit = input("Please choose a direction: ")
     if chosen_exit.casefold() == "quit":
         print("Game over")
-        break
-
-print("Aren't you glad you got out of there?")
+        continue
+else: # does not get executed if we `break` or `continue` the loop
+    print("Aren't you glad you got out of there?")

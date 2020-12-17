@@ -141,4 +141,4 @@ This sequence type cannot be concatenated or multiplied.
 ### **2.1 Blocks And Statements**
 
 Python uses **indentation** to indicate when a new block starts,
-instead of using braces {} or BEGIN and END around code.
+instead of using braces {} or `BEGIN` and `END` around code.

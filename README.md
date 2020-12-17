@@ -7,6 +7,7 @@
 ## **Introduction**
 
 This repo is created for all the programming assignments that I did as part of Udemy's Python Programming masterclass.
+The notes that I created can be found [here](https://neoruien.github.io/python-programming-udemy/) as well.
 
 ## **Skills Gained**
 * Python

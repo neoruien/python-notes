@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc892011-95aa-4f3a-9ddb-3d7bc1ed3f92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/aapractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/aapractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/adventure.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/adventure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/augmentedassignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/augmentedassignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/breakpractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/breakpractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/checkingin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/checkingin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/continuepractice.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/continuepractice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/contrived.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/contrived.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/forloops.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/forloops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/guessinggame.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/guessinggame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/guessinggame2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/guessinggame2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/hilo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/hilo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/ifchallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/ifchallenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/notin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/notin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/ranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/ranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/searching.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/searching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/shopping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/strings2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/strings2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/timestables.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/timestables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/truefalse.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/truefalse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramFlow/.idea/whileloop.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramFlow/.idea/whileloop.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />

@@ -1,11 +1,13 @@
-number = input("Please enter a series of numbers, using any separators you like: ") # "9,223;372:036 854,775;807"
+number = input(
+    "Please enter a series of numbers, using any separators you like: ")  # "9,223;372:036 854,775;807"
 separators = ""
 
 for char in number:
-  if not char.isnumeric():
-    separators += char
+    if not char.isnumeric():
+        separators += char
 
-values = "".join(char if char not in separators else " " for char in number).split()
+values = "".join(
+    char if char not in separators else " " for char in number).split()
 
 print(separators)
 print([int(val) for val in values])
@@ -20,7 +22,7 @@ quote = """"
 capitals = ""
 
 for char in quote:
-  if char.isupper():
-    capitals += char
+    if char.isupper():
+        capitals += char
 
 print(capitals)

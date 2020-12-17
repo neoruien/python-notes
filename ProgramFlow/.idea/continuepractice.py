@@ -4,13 +4,13 @@
 
 # Using continue
 for x in range(0, 21):
-  if x % 3 == 0 or x % 5 == 0:
-    continue
-  print(x)
+    if x % 3 == 0 or x % 5 == 0:
+        continue
+    print(x)
 
 print("*" * 15)
 
 # Without using continue
 for x in range(0, 21):
-  if x % 3 != 0 and x % 5 != 0:
-    print(x)
+    if x % 3 != 0 and x % 5 != 0:
+        print(x)

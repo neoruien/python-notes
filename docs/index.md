@@ -181,7 +181,11 @@ A `while` loop can be used when you **can't determine** in advance how many time
 `continue` statement: stop the current iteration and move on to the next one
 `break` statement: jump out of the loop completely
 
-### **2.4. Binary Search**
+## **3. Algorithm**
+
+An algorithm is a set of steps that are followed, to perform a task or calculate a result.
+
+### **3.1. Binary Search**
 
 When you have an **ordered** set of data to search through, you can split the data in half each time
 by guessing the **mid-point** between the low and high values: `midpoint = low + (high-low) // 2`

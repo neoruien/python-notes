@@ -144,19 +144,21 @@ Usage: start (inclusive), stop(exclusive), step (slicing)
 
 ## **2. Program Flow Control**
 
-### **2.1 Blocks And Statements**
+### **2.1. Blocks And Statements**
 
 Python uses **indentation** to indicate when a new block starts,
 instead of using braces {} or `BEGIN` and `END` around code.
 
-### **2.2 `bool`*
+### **2.2. `bool`*
 
-Built-in objects that are considered as `False`:
+Boolean values are either `True` or `False`.
+
+<ins>**Built-in objects that are considered as `False`**</ins>:
 * Constants: `None`, `False`
 * Zero of any numeric type: `0`, `0.0`, `0j`, `Decimal(0)`, `Fraction(0,1)`
 * Empty sequences and collections: `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
 
-Comparison operations:
+<ins>**Comparison operations**</ins>:
 * `<`
 * `<=`
 * `>`
@@ -168,9 +170,13 @@ Comparison operations:
 
 The concept of boolean values are used in `if-elif-else` blocks.
 
-### **`for` Loops**
+### **2.3. `for` Loops**
 
-A `for` loop works by iterating over some set of values, which comes from a `sequence`, such as string, range and list.
+A `for` loop works by **iterating over some set of values**, which comes from a `sequence`, such as string, range and list.
 
 `continue` statement: stop the current iteration and move on to the next one
 `break` statement: jump out of the loop completely
+
+### **2.4. `while` Loops**
+
+As long as the **given condition is true**, the code in the loop will be executed.

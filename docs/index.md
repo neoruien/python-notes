@@ -126,6 +126,12 @@ We can concatenate data types with a string either by:
 
 This sequence type cannot be concatenated or multiplied.
 
+Usage: start (inclusive), stop(exclusive), step (slicing)
+* `range(stop)`
+* `range(start, stop)`
+* `range(start, stop, step)`
+
+
 #### **1.3.5. Bytes And Bytearray**
 
 ### **1.4. Mapping**

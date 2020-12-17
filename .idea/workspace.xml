@@ -45,7 +45,7 @@
       <recent name="C:\Users\neoru\Documents\Courses\Udemy\Python Programming Masterclass\Codes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.conditions">
+  <component name="RunManager" selected="Python.ranges">
     <configuration name="conditions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conditions" />
         <item itemvalue="Python.ranges" />
+        <item itemvalue="Python.conditions" />
         <item itemvalue="Python.strings2" />
         <item itemvalue="Python.forloops" />
         <item itemvalue="Python.strings" />

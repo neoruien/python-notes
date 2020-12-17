@@ -142,3 +142,26 @@ This sequence type cannot be concatenated or multiplied.
 
 Python uses **indentation** to indicate when a new block starts,
 instead of using braces {} or `BEGIN` and `END` around code.
+
+### **2.2 `bool`*
+
+Built-in objects that are considered as `False`:
+* Constants: `None`, `False`
+* Zero of any numeric type: `0`, `0.0`, `0j`, `Decimal(0)`, `Fraction(0,1)`
+* Empty sequences and collections: `''`, `()`, `[]`, `{}`, `set()`, `range(0)`
+
+Comparison operations:
+* `<`
+* `<=`
+* `>`
+* `>=`
+* `==`
+* `!=`
+* `is` checks whether the objects are the same objects with the same memory location
+* `is not` checks whether the objects are different objects
+
+The concept of boolean values are used in `if-elif-else` blocks.
+
+### **`for` Loops**
+
+A `for` loop works by iterating over some set of values, which comes from a `sequence`, such as string, range and list.

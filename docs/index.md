@@ -171,3 +171,6 @@ The concept of boolean values are used in `if-elif-else` blocks.
 ### **`for` Loops**
 
 A `for` loop works by iterating over some set of values, which comes from a `sequence`, such as string, range and list.
+
+`continue` statement: stop the current iteration and move on to the next one
+`break` statement: jump out of the loop completely

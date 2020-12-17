@@ -180,3 +180,10 @@ A `while` loop can be used when you **can't determine** in advance how many time
 
 `continue` statement: stop the current iteration and move on to the next one
 `break` statement: jump out of the loop completely
+
+### **2.4. Binary Search**
+
+When you have an **ordered** set of data to search through, you can split the data in half each time
+by guessing the **mid-point** between the low and high values: `midpoint = low + (high-low) // 2`
+
+The range of values halves with each guess. This simplifies the process of guessing a number.

@@ -191,3 +191,21 @@ When you have an **ordered** set of data to search through, you can split the da
 by guessing the **mid-point** between the low and high values: `midpoint = low + (high-low) // 2`
 
 The range of values halves with each guess. This simplifies the process of guessing a number.
+
+### **4. Code Quality**
+
+## **4.1. The Python Style Guide**
+
+A **PEP** is a Python Enhancement Proposal.
+Check out: [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
+
+All changes and new features to the Python language start with a proposal.
+The proposal is reviewed, discusssed, improved if necessary, then either accepted or rejected.
+
+## **4.2. Refactoring**
+
+Refactoring code means **changing its structure**, without *changing its behaviour*.
+
+Refactoring might change **how** the code does things, but doesn't change *what* it does.
+
+However, make sure you test your code after refactoring it to make sure that the code still works.

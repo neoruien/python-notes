@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc892011-95aa-4f3a-9ddb-3d7bc1ed3f92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProgramFlow/.idea/hilo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgramFlow/.idea/aapractice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +42,8 @@
       <recent name="C:\Users\neoru\Documents\Courses\Udemy\Python Programming Masterclass\Codes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.hilo">
-    <configuration name="adventure" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.aapractice">
+    <configuration name="aapractice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +55,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProgramFlow/.idea/adventure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProgramFlow/.idea/aapractice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aapractice" />
         <item itemvalue="Python.hilo" />
         <item itemvalue="Python.guessinggame2" />
         <item itemvalue="Python.continuepractice" />
         <item itemvalue="Python.breakpractice" />
-        <item itemvalue="Python.adventure" />
       </list>
     </recent_temporary>
   </component>

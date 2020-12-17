@@ -149,7 +149,7 @@ Usage: start (inclusive), stop(exclusive), step (slicing)
 Python uses **indentation** to indicate when a new block starts,
 instead of using braces {} or `BEGIN` and `END` around code.
 
-### **2.2. `bool`*
+### **2.2. `bool`**
 
 Boolean values are either `True` or `False`.
 
@@ -202,9 +202,9 @@ by guessing the **mid-point** between the low and high values: `midpoint = low +
 
 The range of values halves with each guess. This simplifies the process of guessing a number.
 
-### **4. Code Quality**
+## **4. Code Quality**
 
-## **4.1. The Python Style Guide**
+### **4.1. The Python Style Guide**
 
 A **PEP** is a Python Enhancement Proposal.
 Check out: [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/).
@@ -212,7 +212,7 @@ Check out: [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/pep
 All changes and new features to the Python language start with a proposal.
 The proposal is reviewed, discusssed, improved if necessary, then either accepted or rejected.
 
-## **4.2. Refactoring**
+### **4.2. Refactoring**
 
 Refactoring code means **changing its structure**, without *changing its behaviour*.
 

@@ -170,13 +170,13 @@ Boolean values are either `True` or `False`.
 
 The concept of boolean values are used in `if-elif-else` blocks.
 
-### **2.3. `for` Loops**
+### **2.3. Loops**
 
 A `for` loop works by **iterating over some set of values**, which comes from a `sequence`, such as string, range and list.
+The loop will repeat for each item in a **pre-determined** sequence.
+
+The code in the `while` loop will be executed as long as **the condition is true**.
+A `while` loop can be used when you **can't determine** in advance how many times you will need to loop.
 
 `continue` statement: stop the current iteration and move on to the next one
 `break` statement: jump out of the loop completely
-
-### **2.4. `while` Loops**
-
-As long as the **given condition is true**, the code in the loop will be executed.
